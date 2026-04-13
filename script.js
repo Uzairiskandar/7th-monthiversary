@@ -89,20 +89,23 @@ function showQuestion() {
     emoji.innerHTML = "";
 
     if (current >= questions.length) {
-        quiz.innerHTML = `
-        <h2>💌 For You, Manahil ❤️</h2>
-        <p>
-        Happy 7th Monthiversary, my love ❤️<br><br>
-        Manahil, you are the most beautiful part of my life.<br>
-        Every moment with you feels magical ✨<br><br>
-        You are my peace, my happiness, and my forever 💞<br><br>
-        And just so you know...<br>
-        <b>You are mine, and I’m never letting you go 😏❤️</b><br><br>
-        I love you more than anything in this world 💖
-        </p>
-        `;
-        return;
-    }
+
+    document.body.classList.add("final-screen");
+
+    quiz.innerHTML = `
+    <h2>💌 For You, Manahil ❤️</h2>
+    <p>
+    Happy 7th Monthiversary, my love ❤️<br><br>
+    Manahil, you are the most beautiful part of my life.<br>
+    Every moment with you feels magical ✨<br><br>
+    You are my peace, my happiness, and my forever 💞<br><br>
+    And just so you know...<br>
+    <b>You are mine, and I’m never letting you go 😏❤️</b><br><br>
+    I love you more than anything in this world 💖
+    </p>
+    `;
+    return;
+}
 
     let q = questions[current];
     let html = `<div class="question">${q.q}</div>`;
