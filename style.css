@@ -8,42 +8,25 @@ body {
 }
 
 .container {
-    max-width: 600px;
-    margin: 80px auto;
-    padding: 20px;
-    background: rgba(255,255,255,0.15);
-    border-radius: 20px;
-    box-shadow: 0 10px 30px rgba(0,0,0,0.2);
-    backdrop-filter: blur(10px);
+    width: 90%;
+    max-width: 500px;
+    margin: 40px auto;
+    padding: 15px;
+    border-radius: 15px;
 }
 
 /* 💖 Romantic H1 */
 h1 {
-    margin-bottom: 10px;
-    color: #ff4d88;
-    font-size: 34px;
-    font-family: 'Brush Script MT', cursive;
-    letter-spacing: 1px;
-    text-shadow: 0 0 12px rgba(255, 77, 136, 0.7);
+    font-size: 24px;
 }
 
 .question {
-    font-size: 20px;
-    margin: 20px 0;
+    font-size: 18px;
 }
 
 button {
-    display: block;
-    width: 100%;
-    margin: 10px 0;
-    padding: 12px;
-    border: none;
-    border-radius: 10px;
-    background: #ff4d6d;
-    color: white;
-    font-size: 16px;
-    cursor: pointer;
-    transition: 0.3s;
+    font-size: 15px;
+    padding: 10px;
 }
 
 button:hover {
@@ -71,5 +54,19 @@ button:hover {
     100% {
         transform: translateY(-100vh) scale(1.5);
         opacity: 0;
+    }
+@media (max-width: 480px) {
+    h1 {
+        font-size: 20px;
+    }
+
+    .container {
+        margin: 20px auto;
+        padding: 12px;
+    }
+
+    button {
+        font-size: 14px;
+        padding: 9px;
     }
 }
