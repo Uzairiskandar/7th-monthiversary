@@ -109,4 +109,25 @@ button:hover {
         font-size: 14px;
         padding: 10px;
     }
+/* 💖 Final Screen Background */
+.final-screen {
+    background: url('love-bg.jpg') no-repeat center center/cover;
+}
+
+/* 💌 Final Message Styling */
+.final-screen .container {
+    background: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(8px);
+}
+
+.final-screen h2 {
+    font-family: 'Great Vibes', cursive;
+    font-size: 28px;
+    color: #ff99cc;
+}
+
+.final-screen p {
+    font-size: 16px;
+    line-height: 1.6;
+}
 }
