@@ -42,6 +42,42 @@ options: ["Best friend 🤗","Safe place 🫶","Happiness 💕","Forever ❤️"
 {
 q: "Will you always choose me?",
 options: ["Yes ❤️","Forever 💖","Every time 💫","Always you 🥺❤️"]
+},
+{
+q: "What is your favorite thing about us? 🫶",
+options: ["Our bond ❤️","Our late night talks 🌙","The way we understand each other 💫","Everything 😍"]
+},
+{
+q: "When did you realize you love me? 🥺",
+options: ["From the start ❤️","Slowly over time 💕","One special moment ✨","I always knew 💖"]
+},
+{
+q: "What is your favorite memory of us? 📸",
+options: ["Our first conversation 💬","Our cutest moment 🥰","Something unforgettable 💫","Every moment with you ❤️"]
+},
+{
+q: "How do you feel when I care for you? 🥺",
+options: ["Loved ❤️","Safe 🤍","Special 💫","All of these 💖"]
+},
+{
+q: "If I’m sad, what would you do? 😢",
+options: ["Hug me tight 🤗","Make me smile 😊","Give me a Poppa 💋"]
+},
+{
+q: "What makes our love special? ✨",
+options: ["Trust ❤️","Understanding 💫","Deep connection 🫶","Everything 💖"]
+},
+{
+q: "What is your favorite thing I do for you? 🫶",
+options: ["Caring ❤️","Loving you endlessly 💕","Making you smile 😊","Everything 😍"]
+},
+{
+q: "If I were next to you right now, what would you do? 😏",
+options: ["Hug 🤗","Kiss 💋💋","sex 💖"]
+},
+{
+q: "What do you feel when I say “I love you”? 💌",
+options: ["Butterflies 🦋","Happiness 😊","Peace ❤️","Everything 💖"]
 }
 ];
 
